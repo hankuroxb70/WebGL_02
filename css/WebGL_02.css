@@ -1,0 +1,23 @@
+@CHARSET "utf-8";
+*{
+	margin:0;
+	padding:0;
+	font-size:11pt;
+	font-family:Times New Roman;
+	color:#303030;
+}
+#main{
+	border:2px groove #DCDCDC;
+	background-color: black;
+	position: absolute;
+	top:50px;
+	left:50%;
+	margin-left:-400px;
+	width:800px;
+	height:600px;
+}
+#debug{
+	width: 300px;
+	height: 600px;
+	overflow: auto;
+}
